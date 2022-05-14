@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/app.js",
   "scripts": {
-    "start": "server/app.js",
+    "start": "nodemon server/app.js",
     "build": "webpack client/gen/ client/src/index.js"
   },
   "author": "",
