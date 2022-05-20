@@ -9,6 +9,6 @@ app.get("", (req, res) => {
     res.sendFile(path.join(__dirname, "../client/public/index.html"))
 })
 
-app.listen(3000, () => {
-    console.log("Server started on Port: 300");
+app.listen(8080, () => {
+    console.log("Server started on Port: 8080");
 })

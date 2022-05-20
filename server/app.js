@@ -7,6 +7,6 @@ app.use(express.static("../client/public"));
 app.get("", function (req, res) {
     res.sendFile(path.join(__dirname, "../client/public/index.html"));
 });
-app.listen(3000, function () {
-    console.log("Server started on Port: 300");
+app.listen(8080, function () {
+    console.log("Server started on Port: 8080");
 });
