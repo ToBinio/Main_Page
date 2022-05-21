@@ -6,4 +6,4 @@ EXPOSE 8080
 
 RUN npm install --production
 
-CMD ["node","Server/server.js"]
+CMD ["node","server/app.js"]
