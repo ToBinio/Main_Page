@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, serif;
+    color: #eeeeee;
+}
+
+body {
+    background-color: #261f33;
+}
+
+hr {
+    border-color: #58578c;
+    border-style: solid;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
